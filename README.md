@@ -1,5 +1,5 @@
-# ChatBot Interface to Data-frame/base
-Set of scripts to build a chatbot which will query data from data-base/frame.
+# ChatBot Interface to Data-frame
+Set of scripts to build a chatbot which will query data from dataframe.
 
 Copyright (C) 2019 Yogesh H Kulkarni
 
@@ -11,16 +11,23 @@ of the License, or any later version.
 
 ## Scripts:
 * app.py: Chatbot UI built using Flask, using templates/*.html
-* engine.py: Chatbot core logic as well as knowledgebase.
+* dfengine.py: Chatbot core logic as well as knowledgebase.
+* cia_world_factbook.py: Web scraping CIA site
 
 
 ## Dependencies:
 * Needs Python 3.6
+* Rasa
+* Spacy
+
+## Running
+
+<img src="images/runningchatbot.png"/>
 
 ## ToDos
-* Add more training data
-* Entity extraction not working as desired, find out more.
-* Etc.
+* Queries across multiple tables
+* Queries with aggregation and relations, like “Which countries have more than 100 Million population and GDP per capital less than $1000?”
+* Partial/Full SQL support ie to convert natural language query into an equivalent SQL query
 
 ## References
 * UI: Bhavani Ravi’s event-bot [code](https://github.com/bhavaniravi/rasa-site-bot), Youtube [Video](https://www.youtube.com/watch?v=ojuq0vBIA-g)

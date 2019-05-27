@@ -25,9 +25,9 @@
 - bye
 - goodbye
 - good bye
-- stop
-- end
-- farewell
+- See you
+- CU
+- Chao
 - Bye bye
 - have a good one
 
@@ -36,40 +36,40 @@
 - For  [Afghanistan](row), what is the [Background](column) ?
 - What is [Location](column) for [Afghanistan](row) ?
 - For  [Afghanistan](row), what is the [Location](column) ?
+- What is [Geographic coordinates](column) for [Afghanistan](row) ?
+- For  [Afghanistan](row), what is the [Geographic coordinates](column) ?
 - What is [Map references](column) for [Afghanistan](row) ?
 - For  [Afghanistan](row), what is the [Map references](column) ?
-- What is [Area](column) for [Afghanistan](row) ?
-- For  [Afghanistan](row), what is the [Area](column) ?
 - What is [Background](column) for [Akrotiri](row) ?
 - For  [Akrotiri](row), what is the [Background](column) ?
 - What is [Location](column) for [Akrotiri](row) ?
 - For  [Akrotiri](row), what is the [Location](column) ?
+- What is [Geographic coordinates](column) for [Akrotiri](row) ?
+- For  [Akrotiri](row), what is the [Geographic coordinates](column) ?
 - What is [Map references](column) for [Akrotiri](row) ?
 - For  [Akrotiri](row), what is the [Map references](column) ?
-- What is [Area](column) for [Akrotiri](row) ?
-- For  [Akrotiri](row), what is the [Area](column) ?
 - What is [Background](column) for [Albania](row) ?
 - For  [Albania](row), what is the [Background](column) ?
 - What is [Location](column) for [Albania](row) ?
 - For  [Albania](row), what is the [Location](column) ?
+- What is [Geographic coordinates](column) for [Albania](row) ?
+- For  [Albania](row), what is the [Geographic coordinates](column) ?
 - What is [Map references](column) for [Albania](row) ?
 - For  [Albania](row), what is the [Map references](column) ?
-- What is [Area](column) for [Albania](row) ?
-- For  [Albania](row), what is the [Area](column) ?
 - What is [Background](column) for [Algeria](row) ?
 - For  [Algeria](row), what is the [Background](column) ?
 - What is [Location](column) for [Algeria](row) ?
 - For  [Algeria](row), what is the [Location](column) ?
+- What is [Geographic coordinates](column) for [Algeria](row) ?
+- For  [Algeria](row), what is the [Geographic coordinates](column) ?
 - What is [Map references](column) for [Algeria](row) ?
 - For  [Algeria](row), what is the [Map references](column) ?
-- What is [Area](column) for [Algeria](row) ?
-- For  [Algeria](row), what is the [Area](column) ?
 - What is [Background](column) for [American Samoa](row) ?
 - For  [American Samoa](row), what is the [Background](column) ?
 - What is [Location](column) for [American Samoa](row) ?
 - For  [American Samoa](row), what is the [Location](column) ?
+- What is [Geographic coordinates](column) for [American Samoa](row) ?
+- For  [American Samoa](row), what is the [Geographic coordinates](column) ?
 - What is [Map references](column) for [American Samoa](row) ?
 - For  [American Samoa](row), what is the [Map references](column) ?
-- What is [Area](column) for [American Samoa](row) ?
-- For  [American Samoa](row), what is the [Area](column) ?
 

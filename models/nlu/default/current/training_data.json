@@ -91,15 +91,15 @@
       },
       {
         "intent": "goodbye",
-        "text": "stop"
+        "text": "See you"
       },
       {
         "intent": "goodbye",
-        "text": "end"
+        "text": "CU"
       },
       {
         "intent": "goodbye",
-        "text": "farewell"
+        "text": "Chao"
       },
       {
         "intent": "goodbye",
@@ -186,6 +186,42 @@
         "entities": [
           {
             "start": 8,
+            "end": 30,
+            "value": "Geographic coordinates",
+            "entity": "column"
+          },
+          {
+            "start": 35,
+            "end": 46,
+            "value": "Afghanistan",
+            "entity": "row"
+          }
+        ],
+        "text": "What is Geographic coordinates for Afghanistan ?"
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 5,
+            "end": 16,
+            "value": "Afghanistan",
+            "entity": "row"
+          },
+          {
+            "start": 30,
+            "end": 52,
+            "value": "Geographic coordinates",
+            "entity": "column"
+          }
+        ],
+        "text": "For  Afghanistan, what is the Geographic coordinates ?"
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 8,
             "end": 22,
             "value": "Map references",
             "entity": "column"
@@ -216,42 +252,6 @@
           }
         ],
         "text": "For  Afghanistan, what is the Map references ?"
-      },
-      {
-        "intent": "query",
-        "entities": [
-          {
-            "start": 8,
-            "end": 12,
-            "value": "Area",
-            "entity": "column"
-          },
-          {
-            "start": 17,
-            "end": 28,
-            "value": "Afghanistan",
-            "entity": "row"
-          }
-        ],
-        "text": "What is Area for Afghanistan ?"
-      },
-      {
-        "intent": "query",
-        "entities": [
-          {
-            "start": 5,
-            "end": 16,
-            "value": "Afghanistan",
-            "entity": "row"
-          },
-          {
-            "start": 30,
-            "end": 34,
-            "value": "Area",
-            "entity": "column"
-          }
-        ],
-        "text": "For  Afghanistan, what is the Area ?"
       },
       {
         "intent": "query",
@@ -330,6 +330,42 @@
         "entities": [
           {
             "start": 8,
+            "end": 30,
+            "value": "Geographic coordinates",
+            "entity": "column"
+          },
+          {
+            "start": 35,
+            "end": 43,
+            "value": "Akrotiri",
+            "entity": "row"
+          }
+        ],
+        "text": "What is Geographic coordinates for Akrotiri ?"
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "value": "Akrotiri",
+            "entity": "row"
+          },
+          {
+            "start": 27,
+            "end": 49,
+            "value": "Geographic coordinates",
+            "entity": "column"
+          }
+        ],
+        "text": "For  Akrotiri, what is the Geographic coordinates ?"
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 8,
             "end": 22,
             "value": "Map references",
             "entity": "column"
@@ -360,42 +396,6 @@
           }
         ],
         "text": "For  Akrotiri, what is the Map references ?"
-      },
-      {
-        "intent": "query",
-        "entities": [
-          {
-            "start": 8,
-            "end": 12,
-            "value": "Area",
-            "entity": "column"
-          },
-          {
-            "start": 17,
-            "end": 25,
-            "value": "Akrotiri",
-            "entity": "row"
-          }
-        ],
-        "text": "What is Area for Akrotiri ?"
-      },
-      {
-        "intent": "query",
-        "entities": [
-          {
-            "start": 5,
-            "end": 13,
-            "value": "Akrotiri",
-            "entity": "row"
-          },
-          {
-            "start": 27,
-            "end": 31,
-            "value": "Area",
-            "entity": "column"
-          }
-        ],
-        "text": "For  Akrotiri, what is the Area ?"
       },
       {
         "intent": "query",
@@ -474,6 +474,42 @@
         "entities": [
           {
             "start": 8,
+            "end": 30,
+            "value": "Geographic coordinates",
+            "entity": "column"
+          },
+          {
+            "start": 35,
+            "end": 42,
+            "value": "Albania",
+            "entity": "row"
+          }
+        ],
+        "text": "What is Geographic coordinates for Albania ?"
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Albania",
+            "entity": "row"
+          },
+          {
+            "start": 26,
+            "end": 48,
+            "value": "Geographic coordinates",
+            "entity": "column"
+          }
+        ],
+        "text": "For  Albania, what is the Geographic coordinates ?"
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 8,
             "end": 22,
             "value": "Map references",
             "entity": "column"
@@ -504,42 +540,6 @@
           }
         ],
         "text": "For  Albania, what is the Map references ?"
-      },
-      {
-        "intent": "query",
-        "entities": [
-          {
-            "start": 8,
-            "end": 12,
-            "value": "Area",
-            "entity": "column"
-          },
-          {
-            "start": 17,
-            "end": 24,
-            "value": "Albania",
-            "entity": "row"
-          }
-        ],
-        "text": "What is Area for Albania ?"
-      },
-      {
-        "intent": "query",
-        "entities": [
-          {
-            "start": 5,
-            "end": 12,
-            "value": "Albania",
-            "entity": "row"
-          },
-          {
-            "start": 26,
-            "end": 30,
-            "value": "Area",
-            "entity": "column"
-          }
-        ],
-        "text": "For  Albania, what is the Area ?"
       },
       {
         "intent": "query",
@@ -618,6 +618,42 @@
         "entities": [
           {
             "start": 8,
+            "end": 30,
+            "value": "Geographic coordinates",
+            "entity": "column"
+          },
+          {
+            "start": 35,
+            "end": 42,
+            "value": "Algeria",
+            "entity": "row"
+          }
+        ],
+        "text": "What is Geographic coordinates for Algeria ?"
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Algeria",
+            "entity": "row"
+          },
+          {
+            "start": 26,
+            "end": 48,
+            "value": "Geographic coordinates",
+            "entity": "column"
+          }
+        ],
+        "text": "For  Algeria, what is the Geographic coordinates ?"
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 8,
             "end": 22,
             "value": "Map references",
             "entity": "column"
@@ -648,42 +684,6 @@
           }
         ],
         "text": "For  Algeria, what is the Map references ?"
-      },
-      {
-        "intent": "query",
-        "entities": [
-          {
-            "start": 8,
-            "end": 12,
-            "value": "Area",
-            "entity": "column"
-          },
-          {
-            "start": 17,
-            "end": 24,
-            "value": "Algeria",
-            "entity": "row"
-          }
-        ],
-        "text": "What is Area for Algeria ?"
-      },
-      {
-        "intent": "query",
-        "entities": [
-          {
-            "start": 5,
-            "end": 12,
-            "value": "Algeria",
-            "entity": "row"
-          },
-          {
-            "start": 26,
-            "end": 30,
-            "value": "Area",
-            "entity": "column"
-          }
-        ],
-        "text": "For  Algeria, what is the Area ?"
       },
       {
         "intent": "query",
@@ -762,6 +762,42 @@
         "entities": [
           {
             "start": 8,
+            "end": 30,
+            "value": "Geographic coordinates",
+            "entity": "column"
+          },
+          {
+            "start": 35,
+            "end": 49,
+            "value": "American Samoa",
+            "entity": "row"
+          }
+        ],
+        "text": "What is Geographic coordinates for American Samoa ?"
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 5,
+            "end": 19,
+            "value": "American Samoa",
+            "entity": "row"
+          },
+          {
+            "start": 33,
+            "end": 55,
+            "value": "Geographic coordinates",
+            "entity": "column"
+          }
+        ],
+        "text": "For  American Samoa, what is the Geographic coordinates ?"
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 8,
             "end": 22,
             "value": "Map references",
             "entity": "column"
@@ -792,42 +828,6 @@
           }
         ],
         "text": "For  American Samoa, what is the Map references ?"
-      },
-      {
-        "intent": "query",
-        "entities": [
-          {
-            "start": 8,
-            "end": 12,
-            "value": "Area",
-            "entity": "column"
-          },
-          {
-            "start": 17,
-            "end": 31,
-            "value": "American Samoa",
-            "entity": "row"
-          }
-        ],
-        "text": "What is Area for American Samoa ?"
-      },
-      {
-        "intent": "query",
-        "entities": [
-          {
-            "start": 5,
-            "end": 19,
-            "value": "American Samoa",
-            "entity": "row"
-          },
-          {
-            "start": 33,
-            "end": 37,
-            "value": "Area",
-            "entity": "column"
-          }
-        ],
-        "text": "For  American Samoa, what is the Area ?"
       }
     ],
     "regex_features": [],

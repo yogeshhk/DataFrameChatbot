@@ -13,7 +13,6 @@ import rasa_core
 import spacy
 
 from rasa_nlu.training_data import load_data
-from rasa_nlu.config import RasaNLUModelConfig
 from rasa_nlu.model import Trainer
 from rasa_nlu import config
 from rasa_nlu.model import Interpreter
@@ -34,14 +33,14 @@ class DfEngine:
         self.build_model()
         
     def add_std_intents(self,d):
-        d['greet'] = ["hey","howdy","hey there","hello","hi","good morning","good evening","dear sir"]
+        d['greet'] = ["hey","howdy","hey there","hello","hi"]
         d['affirm'] = ["yes","yep","yeah","indeed","that's right","ok","great","right, thank you","correct","great choice", "sounds really good"]
-        d["goodbye"] = ["bye","goodbye","good bye","stop","end","farewell","Bye bye","have a good one"]
+        d["goodbye"] = ["bye","goodbye","good bye","See you","CU","Chao","Bye bye","have a good one"]
         return d
         
     def populate_dataframe(self):
         self.df = pd.read_csv(self.datafilename, encoding="ISO-8859-1")
-        self.df = self.df.dropna(axis = 1, how ='any') 
+#         self.df = self.df.dropna(axis = 1, how ='any') 
 #         print(self.df.head())
         self.primary_key_values_list = self.df[self.primarycolumnname].tolist()
         
@@ -56,7 +55,7 @@ class DfEngine:
         sample_sentences = []
         for c in self.primary_key_values_list[:n_sample_countries]:
             for col in self.all_columns[:n_sample_columns]:
-                if "Unnamed" in col or "Unnamed" in c:
+                if "Unnamed" in col or "NaN" in c:
                     continue
                 sentenceformat1 = "What is [" + col + "](column) for [" + c + "](row) ?"
                 sentenceformat2 = "For  [" + c + "](row), what is the [" + col + "](column) ?"
@@ -114,7 +113,7 @@ class DfEngine:
                 row = ent["value"].title()
         if row != None and col != None:
             value = self.df.loc[self.df[self.primarycolumnname] == row,col].item()
-            return value
+            return value.replace(";",",")
         return "Could not follow your question. Try again"
 
     def process_other_intents(self,intent):
@@ -147,8 +146,11 @@ if __name__ == "__main__":
     response = dfmodel.query("Hi")
     print(response)
         
-    response = dfmodel.query("What is Background for India ?")
+    response = dfmodel.query("What is Population for China ?")
     print(response)
 
+    response = dfmodel.query("What is Background for Congo ?")
+    print(response.encode("ISO-8859-1"))
+    
     response = dfmodel.query("Bye")
     print(response)
