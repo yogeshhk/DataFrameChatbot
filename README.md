@@ -1,5 +1,6 @@
 # ChatBot Interface to Data-frame
 Set of scripts to build a chatbot which will query data from dataframe.
+More details at https://www.kdnuggets.com/2019/06/natural-language-interface-datatable.html
 
 Copyright (C) 2019 Yogesh H Kulkarni
 
