@@ -14,12 +14,19 @@ of the License, or any later version.
 * app.py: Chatbot UI built using Flask, using templates/*.html
 * dfengine.py: Chatbot core logic as well as knowledgebase.
 * cia_world_factbook.py: Web scraping CIA site
+* run_training: Windows batch file to build trained modeling
+* run_server: Windows batch file to execute Rasa-NLU server.
 
 
 ## Dependencies:
 * Needs Python 3.6
 * Rasa
 * Spacy
+
+## To Run:
+* Execute run_training.bat
+* In a separate window, execute run_server.bat
+* In the original window, python app.py It will suggest a local host url, which needs to be opened in browser.
 
 ## Running
 
